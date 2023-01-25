@@ -1,3 +1,5 @@
 in the headers section for axios, this: "Access-Control-Allow-Origin": "*" works and so does the ngrok phrase currently being used
 
 when implementing the carousel, the map function didn't work and returned (Uncaught TypeError: Cannot read properties of undefined (reading 'map')). This was solved by adding a question mark before the .map in the hero section to ensure that the mapping only takes place if the movies array is not empty. 
+
+const updatedReviews is updating the array on the client side rather than pulling from the database again. Very optimized approach
