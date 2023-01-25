@@ -1,0 +1,1 @@
+in the headers section for axios, this: "Access-Control-Allow-Origin": "*" works and so does the ngrok phrase currently being used
